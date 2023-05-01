@@ -1,0 +1,35 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.m("DFTXbf");
+/*
+
+ Copyright 2020 Google Inc.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+*/
+var WEf=function(a){return a.ariaLabel+", "+_.BB(a.qC,3)},XEf=function(a){return a.ariaLabel},YEf={Kfa:"mdc-circular-progress--indeterminate",F$:"mdc-circular-progress--closed"},ZEf={mG:"aria-hidden",Vta:"aria-valuenow",Fgf:".mdc-circular-progress__determinate-circle",fhc:"r",YKd:"stroke-dashoffset"};var $Ef={},aFf=($Ef[YEf.F$]="kIxGYd",$Ef[YEf.Kfa]="a2lzue",$Ef);var bFf=function(a){_.yD.call(this,Object.assign({},bFf.ka,a))};_.D(bFf,_.yD);_.k=bFf.prototype;_.k.init=function(){this.closed=this.Gb.hasClass(YEf.F$);this.ka=!this.Gb.hasClass(YEf.Kfa);this.progress=0;this.ka&&this.Gb.setAttribute(ZEf.Vta,this.progress.toString());this.radius=Number(this.Gb.Tuc(ZEf.fhc))};_.k.aOa=function(a){(this.ka=a)?(this.Gb.removeClass(YEf.Kfa),this.Nz(this.progress)):(this.Gb.addClass(YEf.Kfa),this.Gb.removeAttribute(ZEf.Vta))};_.k.Ica=function(){return this.ka};
+_.k.Nz=function(a){this.progress=a;this.ka&&(this.Gb.eRc(ZEf.YKd,""+2*(1-this.progress)*Math.PI*this.radius),this.Gb.setAttribute(ZEf.Vta,this.progress.toString()))};_.k.nO=function(){return this.progress};_.k.open=function(){this.closed=!1;this.Gb.removeClass(YEf.F$);this.Gb.removeAttribute(ZEf.mG)};_.k.close=function(){this.closed=!0;this.Gb.addClass(YEf.F$);this.Gb.setAttribute(ZEf.mG,"true")};_.k.Iq=function(){return this.closed};
+_.Of.Object.defineProperties(bFf,{Hl:{configurable:!0,enumerable:!0,get:function(){return YEf}},strings:{configurable:!0,enumerable:!0,get:function(){return ZEf}},ka:{configurable:!0,enumerable:!0,get:function(){return{addClass:function(){},Tuc:function(){return null},hasClass:function(){return!1},removeClass:function(){},removeAttribute:function(){},setAttribute:function(){},eRc:function(){}}}}});var dFf=function(a){_.z.call(this,a.Ja);this.Pf=a.Oc.Pf;this.foundation=new bFf(this.hm());this.foundation.init();this.Nz(_.Pl(this.getRoot().getData("progressvalue")));cFf(this);_.VEf(this.getRoot())};_.D(dFf,_.z);dFf.Da=function(){return{Oc:{Pf:_.jo}}};_.k=dFf.prototype;_.k.open=function(){this.foundation.open();this.getRoot().removeAttr(ZEf.mG)};_.k.close=function(){this.foundation.close();this.getRoot().Wb(ZEf.mG,"true")};_.k.aOa=function(a){this.foundation.aOa(a);cFf(this)};_.k.Ica=function(){return this.foundation.Ica()};
+_.k.Nz=function(a){this.foundation.Nz(a);cFf(this)};_.k.nO=function(){return this.foundation.nO()};_.k.Iq=function(){return this.foundation.Iq()};var eFf=function(a){return a.getElement("LbNpof")},cFf=function(a){var b=a.Va("a2gnBb");b.size()&&(a=a.foundation.Ica()?a.Pf.Dg(WEf,{ariaLabel:eFf(a).Nc("aria-label"),qC:a.foundation.nO()}):a.Pf.Dg(XEf,{ariaLabel:eFf(a).Nc("aria-label")}),b.Rb(a))},fFf=function(a,b){switch(b){case ZEf.mG:return a.getRoot();default:return eFf(a)}};
+dFf.prototype.hm=function(){var a=this;return{addClass:function(b){return eFf(a).addClass(aFf[b])},Tuc:function(b){return a.getElement("MU5Wmf").Nc(b)||null},hasClass:function(b){return eFf(a).hasClass(aFf[b])},removeClass:function(b){return eFf(a).removeClass(aFf[b])},removeAttribute:function(b){fFf(a,b).removeAttr(b)},setAttribute:function(b,c){fFf(a,b).Wb(b,c)},eRc:function(b,c){return a.getElement("MU5Wmf").Wb(b,c)}}};_.L(dFf.prototype,"qdulke",function(){return this.Iq});
+_.L(dFf.prototype,"voETec",function(){return this.nO});_.L(dFf.prototype,"u97Xue",function(){return this.Ica});_.L(dFf.prototype,"TvD9Pc",function(){return this.close});_.L(dFf.prototype,"FNFY6c",function(){return this.open});_.Gq(_.OWb,dFf);
+_.n();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
